@@ -717,7 +717,7 @@
 											"top": 603.5,
 											"width": 312,
 											"height": 13,
-											"text": "Afficher liste des participants au démarrage du jeu"
+											"text": "Afficher liste des participants"
 										},
 										{
 											"_type": "LabelView",
@@ -750,7 +750,7 @@
 									"font": "Arial;13;0",
 									"left": 291,
 									"top": 596.5,
-									"width": 322.8125,
+									"width": 322,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFpOcifVNo7NfE="
@@ -913,7 +913,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 261.1103515625,
-											"top": 275.5,
+											"top": 283,
 											"width": 222,
 											"height": 13,
 											"text": "Répondre aux questions"
@@ -948,7 +948,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 256.1103515625,
-									"top": 268.5,
+									"top": 276,
 									"width": 232,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1049,35 +1049,18 @@
 											},
 											"font": "Arial;13;0",
 											"left": 213,
-											"top": 303,
-											"width": 318.220703125,
-											"height": 13,
-											"text": "ExtP1  Si l'utilisateur click sur le boutton fermer session",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLExtensionPointView",
-											"_id": "AAAAAAFpXsioPSEfncw=",
-											"_parent": {
-												"$ref": "AAAAAAFpOcqoFtqpbCI="
-											},
-											"model": {
-												"$ref": "AAAAAAFpXsioDSEcfY4="
-											},
-											"font": "Arial;13;0",
-											"left": 213,
 											"top": 318,
 											"width": 318.220703125,
 											"height": 13,
-											"text": "ExtP2   S'il y a 5 minutes d'inactivité",
+											"text": "ExtP1  Si l'utilisateur click sur le boutton fermer session",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 208,
-									"top": 298,
+									"top": 313,
 									"width": 328.220703125,
-									"height": 38
+									"height": 23
 								}
 							],
 							"font": "Arial;13;0",
@@ -2551,7 +2534,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 428.332275390625,
-											"top": 187.5,
+											"top": 195,
 											"width": 141,
 											"height": 13,
 											"text": "Choisir question"
@@ -2586,7 +2569,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 423.332275390625,
-									"top": 180.5,
+									"top": 188,
 									"width": 151,
 									"height": 25,
 									"stereotypeLabel": {
@@ -2687,35 +2670,18 @@
 											},
 											"font": "Arial;13;0",
 											"left": 397,
-											"top": 215,
-											"width": 203.66455078125,
-											"height": 13,
-											"text": "ExtP1  Si l'utilisateur est bloqué",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLExtensionPointView",
-											"_id": "AAAAAAFpXsp0Nynpnek=",
-											"_parent": {
-												"$ref": "AAAAAAFpOdUQ3uMBn/s="
-											},
-											"model": {
-												"$ref": "AAAAAAFpXsp0BSndhS8="
-											},
-											"font": "Arial;13;0",
-											"left": 397,
 											"top": 230,
 											"width": 203.66455078125,
 											"height": 13,
-											"text": "ExtP2  S'il y a 5 minutes d'inactivité",
+											"text": "ExtP1  Si l'utilisateur est bloqué",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 392,
-									"top": 210,
+									"top": 225,
 									"width": 213.66455078125,
-									"height": 38
+									"height": 23
 								}
 							],
 							"font": "Arial;13;0",
@@ -6298,198 +6264,6 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAFpXdiahn6Arvc="
 							}
-						},
-						{
-							"_type": "UMLExtendView",
-							"_id": "AAAAAAFpXsiHUx/f6JQ=",
-							"_parent": {
-								"$ref": "AAAAAAFo8bqXxiO/9wY="
-							},
-							"model": {
-								"$ref": "AAAAAAFpXsiHUx/dbrU="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFpXsiHUx/g3xU=",
-									"_parent": {
-										"$ref": "AAAAAAFpXsiHUx/f6JQ="
-									},
-									"model": {
-										"$ref": "AAAAAAFpXsiHUx/dbrU="
-									},
-									"font": "Arial;13;0",
-									"left": 523,
-									"top": 406,
-									"width": 14.82177734375,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFpXsiHUx/f6JQ="
-									},
-									"edgePosition": 1,
-									"text": "+2"
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFpXsiHUx/hr24=",
-									"_parent": {
-										"$ref": "AAAAAAFpXsiHUx/f6JQ="
-									},
-									"model": {
-										"$ref": "AAAAAAFpXsiHUx/dbrU="
-									},
-									"font": "Arial;13;0",
-									"left": 467,
-									"top": 411,
-									"width": 53.49169921875,
-									"height": 13,
-									"alpha": 0.9213529517612917,
-									"distance": 47.53945729601885,
-									"hostEdge": {
-										"$ref": "AAAAAAFpXsiHUx/f6JQ="
-									},
-									"edgePosition": 1,
-									"text": "«extend»"
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFpXsiHUx/iaT0=",
-									"_parent": {
-										"$ref": "AAAAAAFpXsiHUx/f6JQ="
-									},
-									"model": {
-										"$ref": "AAAAAAFpXsiHUx/dbrU="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 545,
-									"top": 381,
-									"height": 13,
-									"alpha": -1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFpXsiHUx/f6JQ="
-									},
-									"edgePosition": 1
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAFpOcqoFtqfxKo="
-							},
-							"tail": {
-								"$ref": "AAAAAAFpOdHWsOB/Vo4="
-							},
-							"lineStyle": 1,
-							"points": "643:463;433:337",
-							"showVisibility": true,
-							"nameLabel": {
-								"$ref": "AAAAAAFpXsiHUx/g3xU="
-							},
-							"stereotypeLabel": {
-								"$ref": "AAAAAAFpXsiHUx/hr24="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAFpXsiHUx/iaT0="
-							}
-						},
-						{
-							"_type": "UMLExtendView",
-							"_id": "AAAAAAFpXsiU8yBoA+g=",
-							"_parent": {
-								"$ref": "AAAAAAFo8bqXxiO/9wY="
-							},
-							"model": {
-								"$ref": "AAAAAAFpXsiU8yBm/0Q="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFpXsiU8yBpLq0=",
-									"_parent": {
-										"$ref": "AAAAAAFpXsiU8yBoA+g="
-									},
-									"model": {
-										"$ref": "AAAAAAFpXsiU8yBm/0Q="
-									},
-									"font": "Arial;13;0",
-									"left": 571,
-									"top": 358,
-									"width": 14.82177734375,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFpXsiU8yBoA+g="
-									},
-									"edgePosition": 1,
-									"text": "+2"
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFpXsiU8yBqzvE=",
-									"_parent": {
-										"$ref": "AAAAAAFpXsiU8yBoA+g="
-									},
-									"model": {
-										"$ref": "AAAAAAFpXsiU8yBm/0Q="
-									},
-									"font": "Arial;13;0",
-									"left": 512,
-									"top": 352,
-									"width": 53.49169921875,
-									"height": 13,
-									"alpha": 1.0357611113405718,
-									"distance": 53.03772242470448,
-									"hostEdge": {
-										"$ref": "AAAAAAFpXsiU8yBoA+g="
-									},
-									"edgePosition": 1,
-									"text": "«extend»"
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFpXsiU8yBrzIg=",
-									"_parent": {
-										"$ref": "AAAAAAFpXsiU8yBoA+g="
-									},
-									"model": {
-										"$ref": "AAAAAAFpXsiU8yBm/0Q="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 603,
-									"top": 341,
-									"height": 13,
-									"alpha": -1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFpXsiU8yBoA+g="
-									},
-									"edgePosition": 1
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAFpOdUQ3uL314c="
-							},
-							"tail": {
-								"$ref": "AAAAAAFpOdHWsOB/Vo4="
-							},
-							"lineStyle": 1,
-							"points": "661:463;522:249",
-							"showVisibility": true,
-							"nameLabel": {
-								"$ref": "AAAAAAFpXsiU8yBpLq0="
-							},
-							"stereotypeLabel": {
-								"$ref": "AAAAAAFpXsiU8yBqzvE="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAFpXsiU8yBrzIg="
-							}
 						}
 					]
 				},
@@ -7057,7 +6831,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFo8bqXxiO+ORU="
 					},
-					"name": "Afficher liste des participants au démarrage du jeu"
+					"name": "Afficher liste des participants"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -7097,14 +6871,6 @@
 								"$ref": "AAAAAAFpOcqoFdqdVe0="
 							},
 							"name": "ExtP1  Si l'utilisateur click sur le boutton fermer session"
-						},
-						{
-							"_type": "UMLExtensionPoint",
-							"_id": "AAAAAAFpXsioDSEcfY4=",
-							"_parent": {
-								"$ref": "AAAAAAFpOcqoFdqdVe0="
-							},
-							"name": "ExtP2   S'il y a 5 minutes d'inactivité"
 						}
 					]
 				},
@@ -7224,14 +6990,6 @@
 								"$ref": "AAAAAAFpOdUQ3uL12PQ="
 							},
 							"name": "ExtP1  Si l'utilisateur est bloqué"
-						},
-						{
-							"_type": "UMLExtensionPoint",
-							"_id": "AAAAAAFpXsp0BSndhS8=",
-							"_parent": {
-								"$ref": "AAAAAAFpOdUQ3uL12PQ="
-							},
-							"name": "ExtP2  S'il y a 5 minutes d'inactivité"
 						}
 					]
 				},
